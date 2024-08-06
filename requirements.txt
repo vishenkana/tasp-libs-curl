@@ -1,0 +1,3 @@
+libtasp-common
+libcurl4
+libjsoncpp1

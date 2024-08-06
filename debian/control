@@ -1,0 +1,23 @@
+Source: libtasp-curl
+Section: libs
+Priority: optional
+Maintainer: dummy
+Standards-Version: 4.5.1
+
+Package: libtasp-curl-dev
+Section: libdevel
+Architecture: amd64
+Multi-Arch: same
+Depends: libtasp-curl (= ${binary:Version}), libjsoncpp-dev, ${misc:Depends}
+Description: Software package of technical analysis HTTP-client - development
+ Library for making HTTP requests of the software package of technical analysis
+ project. Allows microservices to interact with each other and interact with
+ other services using the HTTP API.
+
+Package: libtasp-curl
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Software package of technical analysis HTTP-client libraries
+ Library for making HTTP requests of the software package of technical analysis
+ project. Allows microservices to interact with each other and interact with
+ other services using the HTTP API.
